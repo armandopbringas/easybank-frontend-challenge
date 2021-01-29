@@ -1,0 +1,17 @@
+@import '../../app/App.scss';
+
+.product-characteristics {
+
+  &_title {
+    color: $darkBlue;
+    line-height: 1.3;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  &_text {
+    @include characteristicsText;
+  }
+
+}

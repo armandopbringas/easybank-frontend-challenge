@@ -1,0 +1,8 @@
+@import '../../app/App.scss';
+
+.header {
+  display: flex;
+  padding: 1rem $containerSpace;
+  align-items: center;
+  justify-content: space-between;
+}

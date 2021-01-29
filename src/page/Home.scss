@@ -1,0 +1,58 @@
+@import '../app/App.scss';
+
+.home {
+  text-align: center;
+
+  .hero {
+  
+    &_bg-img {
+      height: 300px;
+      margin-bottom: 1.2em;
+      background: url(../assets/bg-intro-mobile.svg) center no-repeat;
+      background-size: cover;
+    } 
+  
+    &_img {
+      height: 300px;
+      margin: 0 calc(-1 * $containerSpace);
+      background: url(../assets/image-mockups.png) center bottom no-repeat;
+      background-size: 345px;
+    }
+    
+  }
+
+  .main {
+
+    &_title {
+      color: $darkBlue;
+      line-height: 1.3;
+      font-weight: 300;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    &_text {
+      @include normalText;
+    }
+
+  }
+
+  .why-use {
+    background-color: $gray;
+
+    &_title {
+      color: $darkBlue;
+      line-height: 1.3;
+      font-weight: 300;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    &_text {
+      @include normalText;
+    }
+
+  }
+
+}
+

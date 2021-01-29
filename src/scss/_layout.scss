@@ -1,0 +1,15 @@
+@import './_vars';
+/** Globals **/
+
+body {
+  color: $grayBlue;
+  font-family: $font;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  padding: 0 $containerSpace;
+}

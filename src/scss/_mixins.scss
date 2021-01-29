@@ -1,0 +1,11 @@
+@mixin normalText {
+  line-height: 1.7;
+  font-size: 0.9rem;
+  margin-bottom: 2.5rem;
+}
+
+@mixin characteristicsText {
+  line-height: 1.7;
+  font-size: 0.82rem;
+  margin-bottom: 2.5rem;
+}
