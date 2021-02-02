@@ -1,0 +1,39 @@
+@import '../../app/App.scss';
+
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  background-color: $darkBlue;
+
+  &_sm-icons_container {
+    display: grid;
+    grid-template-columns: repeat(5, 25px);
+    grid-column-gap: 1rem;
+    justify-content: center;
+    margin: 2.5rem 0;
+
+    .footer_sm-icon {
+      @include icon;
+    }
+
+  }
+
+  &_links {
+    margin-bottom: 1.5rem;
+    
+    .footer_link {
+      color: $white;
+      margin: auto;
+      display: block;
+      padding: 1rem 0;
+      text-decoration: none;
+    }
+
+  }
+
+  .footer_right-reservs {
+    margin-top: 2.5rem;
+  }
+
+}

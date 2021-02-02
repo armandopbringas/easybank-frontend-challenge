@@ -1,0 +1,5 @@
+@import '../../app/App.scss';
+
+.button {
+  @include button;
+}

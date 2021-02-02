@@ -1,6 +1,8 @@
 import React from 'react'
-import ProductCharacteristics from '../components/Product-characteristics/Product-characteristics'
 import './Home.scss'
+import Button from '../components/Button/Button'
+import ProductCharacteristics from '../components/Product-characteristics/Product-characteristics'
+import Articles from '../components/Articles/Articles'
 
 const Home = () => {
   return (
@@ -21,9 +23,7 @@ const Home = () => {
           account will be a one-stop-shop for spending, 
           saving, budgeting, investing and much more.
         </p>
-        <button>
-          Request Invite
-        </button>
+        <Button />
       </div>
       {/* Why use product */}
       <div className='why-use container'>
@@ -37,6 +37,15 @@ const Home = () => {
         </p>
         {/* Product characteristics description */}
         <ProductCharacteristics />
+      </div>
+      {/* Articles */}
+      <div className='articles container'>
+        <h1 className='articles_title'>
+          Latest Articles
+        </h1>
+        <div className='articles_grid'>
+          <Articles />
+        </div>
       </div>
     </div>
   )

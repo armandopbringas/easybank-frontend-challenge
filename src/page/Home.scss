@@ -22,6 +22,7 @@
   }
 
   .main {
+    margin-bottom: 2.5rem;
 
     &_title {
       color: $darkBlue;
@@ -38,6 +39,8 @@
   }
 
   .why-use {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
     background-color: $gray;
 
     &_title {
@@ -50,6 +53,25 @@
     
     &_text {
       @include normalText;
+    }
+
+  }
+
+  .articles {
+    background-color: $gray;
+
+    &_title {
+      margin-top: 0;
+      color: $darkBlue;
+      line-height: 1.3;
+      font-weight: 300;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    &_grid {
+      display: grid;
+      grid-row-gap: 1.5rem;
     }
 
   }

@@ -1,0 +1,31 @@
+@import '../../app/App.scss';
+
+.article-item {
+  text-align: left;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: $white;
+  margin-bottom: 2rem;
+
+  img {
+    width: 100%;
+  }
+
+  &_text-container {
+    padding: 1rem 0.75rem;
+  }
+
+  &_by {
+    color: $grayBlue;
+  }
+
+  &_title {
+    color: $darkBlue;
+    font-size: 1.12rem;
+  }
+
+  &_text {
+    @include normalText;
+  }
+
+}

@@ -9,3 +9,19 @@
   font-size: 0.82rem;
   margin-bottom: 2.5rem;
 }
+
+@mixin button {
+  border: none;
+  padding: .9em 2.2em;
+  font-size: 1em;
+  border-radius: 1.5em;
+  color: $white;
+  background-image: linear-gradient(to right,$limeGreen 0%,  $rightCyan 100%);
+}
+
+@mixin icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0 0.75rem;
+  display: inline-flex;
+}
